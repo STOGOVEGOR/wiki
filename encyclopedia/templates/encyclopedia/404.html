@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block body %}
+
+        SORRY!<br>
+        The page is not found!<br><br>
+        <a href="{% url 'newentry' %}">Want to add new entry?</a>
+
+{% endblock %}
